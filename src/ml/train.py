@@ -1,9 +1,16 @@
 from sklearn.ensemble import RandomForestClassifier
 from joblib import dump
-from preprocess import preprocess_data
+import pandas as pd
 
 def train_model():
-    X_train, X_test, y_train, y_test = preprocess_data("data/chemical_inventory.csv")
+    #load data
+    df = pd.read_csv("data/chemical_inventory.csv")
+    X = df.drop(columns=["target"])
+    y = df["target"]
+
+    #train the model
     model = RandomForestClassifier()
-    model.fit(X_train, y_train)
+    model.fit(X,y)
+
+    #save the trained model
     dump(model, "models/random_forest.joblib")

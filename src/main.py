@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from api.endpoints import router
+from src.api.endpoints import router
 
 app = FastAPI()
 app.include_router(router)
@@ -9,4 +9,4 @@ def read_root():
     return {"message": "Chemical Inventory Management System"}
 
 # debug: ensure py file runs
-print("main.py running")
+print("main.py is running")
