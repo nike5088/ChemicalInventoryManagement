@@ -1,0 +1,21 @@
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# Environment
+.env
+.venv/
+*.env
+*.venv
+
+# Data
+data/
+models/
+
+# Logs
+*.log
+*.out
+
+# Others
+*.joblib
+.idea/
