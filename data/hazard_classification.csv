@@ -1,0 +1,11 @@
+﻿Hazard Classification,Hazard Category
+Carcinogenic,Health Hazard
+Caustic,Corrosion
+Corrosive,Corrosion
+Flammable,Flame
+Generally Safe,Exclamation Mark
+Harmful,Exclamation Mark
+Irritant,Exclamation Mark
+Oxidizer,Flame
+Toxic,Toxic
+Explosive,Exclamation Mark

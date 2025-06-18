@@ -1,0 +1,36 @@
+﻿Storage ID,Lab Number,Hazard Category
+1,1,Health Hazard
+2,1,Corrosion
+3,1,Flame
+4,1,Exclamation Mark
+5,1,Toxic
+6,2,Health Hazard
+7,2,Corrosion
+8,2,Flame
+9,2,Exclamation Mark
+10,2,Toxic
+11,3,Health Hazard
+12,3,Corrosion
+13,3,Flame
+14,3,Exclamation Mark
+15,3,Toxic
+16,4,Health Hazard
+17,4,Corrosion
+18,4,Flame
+19,4,Exclamation Mark
+20,4,Toxic
+21,5,Health Hazard
+22,5,Corrosion
+23,5,Flame
+24,5,Exclamation Mark
+25,5,Toxic
+26,6,Health Hazard
+27,6,Corrosion
+28,6,Flame
+29,6,Exclamation Mark
+30,6,Toxic
+31,7,Health Hazard
+32,7,Corrosion
+33,7,Flame
+34,7,Exclamation Mark
+35,7,Toxic
